@@ -1,0 +1,92 @@
+.divs {
+    display: flex;
+    flex-direction: raw;
+    gap: 40px;
+    justify-content:space-between;
+}
+
+
+
+.border {
+    border-radius: 30px;
+}
+
+.shadow {
+    box-shadow: 0px 10px 40px 0px;
+}
+
+.size {
+    width: 150px;
+    height: 150px;
+}
+
+.color {
+    display: flex;
+    align-items: center;
+    margin: -20px 20px;
+}
+
+p {
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    margin: 20px 10px;
+}
+
+span {
+    width: 30px;
+    height: 30px;
+    /* margin: 5px 10px 10px 0px; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #00000080;
+
+}
+
+
+
+
+
+
+.stack {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+    background-color: #E6E6E6;
+    box-shadow: 0px 0px 50px 1px #000000;
+    border-radius: 30px;
+
+    margin: 20px auto;
+    padding: 30px;
+    gap: 20px;
+}
+
+.block-1 {
+    background-image: linear-gradient(to bottom left, #bab0d4, #4c1a57);
+    
+}
+
+.block-2 {
+    background-image: linear-gradient(to bottom right, #4c1a57, #00a8aa);
+}
+
+.block-3 {
+    background-image: linear-gradient(to bottom left, #00a8aa, #f0f600);
+}
+
+
+.link {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .divs {
+        display: flex;
+        flex-direction: column;
+        gap: 0px
+    }
+}

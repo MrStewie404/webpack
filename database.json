@@ -1,0 +1,10 @@
+{
+    "user": [
+      { "id": 1, "name": "sai", "username": "sai_404_1" },
+      { "id": 2, "name": "programmer", "username": "whoami" }
+    ],
+    "groups": [
+      { "id": 1, "name": "THE BEST PEOPLE", "groupId": 159 },
+      { "id": 2, "name": "C++", "groupId": 241 }
+    ]
+}
